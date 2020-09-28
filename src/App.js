@@ -39,8 +39,6 @@ function App() {
       setSearchTerm('');
 
     }
-
-
    };
 
    const handleOnChange = (e) => {
@@ -51,6 +49,7 @@ function App() {
   return (
     <>
     <header>
+      <h1>MovieTheque</h1>
       <form onSubmit={handleOnSubmit}>    
         <input className="search" 
               type="search"
